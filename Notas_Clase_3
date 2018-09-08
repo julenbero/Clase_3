@@ -4,8 +4,20 @@ pwd visualiza carpeta actual
 cd cambio de directorio
 ls listar archivos
 
-git init -- Inicializar Git en el directorio
-git status -- Estado de los Commit
-git add *nombredelarchivo* -- Adicionar informacion que se quiere cargar
-git add . -- Sube todos los archivos y directorios
-git config
+git init ---- Inicializar Git en el directorio
+git status ---- Estado de los Commit
+git add *nombredelarchivo* ---- Adicionar informacion que se quiere cargar
+git add . ---- Sube todos los archivos y directorios, directorios vacios no son cargados
+git config --global user.name "nombredeusuarioregistrado"
+git config --global user.email "correoregistrado"
+git commit ---- Carga de Archivos
+****Insertar comentarios en la primera linea del editor, posterior presionar "esc" y :wq(write y quit)
+****Comando que evita abrir el editor git commit -m "first commit"
+git remote add origin https://github.com/julenbero/Clase_3.git ** Nombre repositorio Clase_3.git
+git push -u origin master ** Rama en la que se encuentra actualmente
+
+-----------------------------------------------------------------------------------------------------
+Para recuperacion del directorio
+git clone y ruta del repositorio ***https://github.com/julenbero/Clase_3.git
+-----------------------------------------------------------------------------------------------------
+
