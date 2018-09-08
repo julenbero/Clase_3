@@ -1,0 +1,11 @@
+Comandos GIT
+
+pwd visualiza carpeta actual
+cd cambio de directorio
+ls listar archivos
+
+git init -- Inicializar Git en el directorio
+git status -- Estado de los Commit
+git add *nombredelarchivo* -- Adicionar informacion que se quiere cargar
+git add . -- Sube todos los archivos y directorios
+git config
