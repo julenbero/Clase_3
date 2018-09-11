@@ -1,0 +1,7 @@
+Aplicacion cmder www.cmder.net
+
+Manejo de ramas
+git branch --------Verificacion de Ramas creadas
+git branch XXXXXXX ------Creacion de Ramas nueva funcionalidad
+git checkout XXXXXX ------
+git branch -d XXXXXXX ------Eliminacion de Ramas nueva funcionalidad
